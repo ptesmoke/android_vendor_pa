@@ -30,11 +30,17 @@ $(call inherit-product, vendor/pa/config/gsm.mk)
 # Include ParanoidAndroid common configuration
 include vendor/pa/config/pa_common.mk
 
+# Enhanced NFC
+$(call inherit-product, vendor/pa/config/nfc_enhanced.mk)
+
 # Inherit AOSP device configuration
 $(call inherit-product, device/lge/geeb/full_geeb.mk)
 
 # Include CM extras
 EXTRA_CM_PACKAGES ?= true
+
+PRODUCT_COPY_FILES += \
+    vendor/pa/prebuilt/common/apk/TricksterMod.apk:system/app/TricksterMod.apk
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_geeb
