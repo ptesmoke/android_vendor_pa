@@ -12,27 +12,6 @@
         "revision":     "cm-10.2"
     },
     {
-        "remote":       "github",
-        "account":      "g3tsum",
-        "repository":   "android_device_lge_geeb",
-        "target_path":  "device/lge/geeb",
-        "revision":     "jb43-legacy"
-    },
-    {
-        "remote":       "github",
-        "account":      "g3tsum",
-        "repository":   "proprietary_vendor_lge",
-        "target_path":  "vendor/lge",
-        "revision":     "jb43"
-    },
-    {
-        "remote":       "github",
-        "account":      "g3tsum",
-        "repository":   "android_kernel_lge_geeb",
-        "target_path":  "kernel/lge/geeb",
-        "revision":     "jb43-legacy"
-    },
-    {
         "remote":       "cm",
         "repository":   "android_hardware_msm7k",
         "target_path":  "hardware/msm7k",
