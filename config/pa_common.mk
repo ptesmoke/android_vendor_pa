@@ -40,10 +40,10 @@ else
 endif
 
 # ParanoidOTA
-ifneq ($(NO_OTA_BUILD),true)
-    PRODUCT_PACKAGES += \
-        ParanoidOTA
-endif
+# ifneq ($(NO_OTA_BUILD),true)
+#    PRODUCT_PACKAGES += \
+#        ParanoidOTA
+# endif
 
 ifneq ($(PARANOID_BOOTANIMATION_NAME),)
     PRODUCT_COPY_FILES += \
@@ -97,7 +97,7 @@ PRODUCT_COPY_FILES += \
 
 PA_VERSION_MAJOR = 3
 PA_VERSION_MINOR = 9
-PA_VERSION_MAINTENANCE = 9-RC2
+PA_VERSION_MAINTENANCE = 9-RC1-houstonn-darkPA
 PA_PREF_REVISION = 1
 
 TARGET_CUSTOM_RELEASETOOL := source vendor/pa/tools/squisher
