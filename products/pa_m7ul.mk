@@ -19,10 +19,16 @@ ifeq (pa_m7ul,$(TARGET_PRODUCT))
 PARANOID_BOOTANIMATION_NAME := XHDPI
 
 # OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_xxhdpi
+OVERLAY_TARGET := hn_xxhdpi
 
 # Build paprefs from sources
-PREFS_FROM_SOURCE := true
+PREFS_FROM_SOURCE := false
+
+# Specify phone tech before including full_phone  
+$(call inherit-product, vendor/pa/config/gsm.mk) 
+
+# Enhanced NFC
+$(call inherit-product, vendor/pa/config/nfc_enhanced.mk)
 
 # Include ParanoidAndroid common configuration
 include vendor/pa/config/pa_common.mk
@@ -31,6 +37,9 @@ $(call inherit-product, device/htc/m7ul/full_m7ul.mk)
 
 # Include CM extras
 EXTRA_CM_PACKAGES ?= true
+
+PRODUCT_COPY_FILES += \
+    vendor/pa/prebuilt/common/apk/TricksterMod.apk:system/app/TricksterMod.apk
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_m7ul
