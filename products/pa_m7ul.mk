@@ -29,12 +29,18 @@ include vendor/pa/config/pa_common.mk
 
 $(call inherit-product, device/htc/m7ul/full_m7ul.mk)
 
+# Specify phone tech before including full_phone
+$(call inherit-product, vendor/pa/config/gsm.mk)
+
+# Enhanced NFC
+$(call inherit-product, vendor/pa/config/nfc_enhanced.mk)
+
 # Include CM extras
 EXTRA_CM_PACKAGES ?= true
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_m7ul
-PRODUCT_BRAND := htc
+PRODUCT_BRAND := HTC
 PRODUCT_MODEL := HTC One
 PRODUCT_MANUFACTURER := HTC
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=m7 BUILD_ID=JWR66V.H10 BUILD_FINGERPRINT="htc/m7_google/m7:4.3/JWR66V.H10/230993:user/release-keys" PRIVATE_BUILD_DESC="3.06.1700.10 CL230993 release-keys"
