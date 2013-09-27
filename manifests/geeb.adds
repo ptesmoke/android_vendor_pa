@@ -83,6 +83,6 @@
         "account":      "platform",
         "repository":   "hardware/qcom/sensors",
         "target_path":  "hardware/qcom/sensors",
-        "revision":     "refs/tags/android-4.3_r2.2"
+        "revision":     "refs/tags/android-4.3_r3.1"
     }
 ]
