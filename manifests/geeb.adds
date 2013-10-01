@@ -24,11 +24,10 @@
         "revision":     "cm-10.2"
     },
     {
-        "remote":       "github",
-        "account":      "ParanoidAndroid",
+        "remote":       "cm",
         "repository":   "android_hardware_qcom_display",
         "target_path":  "hardware/qcom/display",
-        "revision":     "jb43"
+        "revision":     "cm-10.2"
     },
     {
         "remote":       "cm",
