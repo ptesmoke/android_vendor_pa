@@ -1,24 +1,28 @@
 [
     {
         "remote":       "cm",
+	"account":	"CyanogenMod",
         "repository":   "android_packages_apps_Torch",
         "target_path":  "packages/apps/Torch",
         "revision":     "cm-10.2"
     },
     {
         "remote":       "cm",
+	"account":	"CyanogenMod",
         "repository":   "android_packages_apps_CMFileManager",
         "target_path":  "packages/apps/CMFileManager",
         "revision":     "cm-10.2"
     },
     {
         "remote":       "cm",
+	"account":	"CyanogenMod",
         "repository":   "android_hardware_msm7k",
         "target_path":  "hardware/msm7k",
         "revision":     "cm-10.2"
     },
     {
         "remote":       "cm",
+	"account":	"CyanogenMod",
         "repository":   "android_hardware_qcom_bt",
         "target_path":  "hardware/qcom/bt",
         "revision":     "cm-10.2"
@@ -31,48 +35,56 @@
     },
     {
         "remote":       "cm",
+	"account":	"CyanogenMod",
         "repository":   "android_hardware_qcom_display-caf",
         "target_path":  "hardware/qcom/display-caf",
         "revision":     "cm-10.2"
     },
     {
         "remote":       "cm",
+	"account":	"CyanogenMod",
         "repository":   "android_hardware_qcom_power",
         "target_path":  "hardware/qcom/power",
         "revision":     "cm-10.2"
     },
     {
         "remote":       "cm",
+	"account":	"CyanogenMod",
         "repository":   "android_hardware_qcom_media",
         "target_path":  "hardware/qcom/media",
         "revision":     "cm-10.2"
     },
     {
         "remote":       "cm",
+	"account":	"CyanogenMod",
         "repository":   "android_hardware_qcom_media-caf",
         "target_path":  "hardware/qcom/media-caf",
         "revision":     "cm-10.2"
     },
     {
         "remote":       "cm",
+	"account":	"CyanogenMod",
         "repository":   "android_hardware_qcom_wlan",
         "target_path":  "hardware/qcom/wlan",
         "revision":     "cm-10.2"
     },
     {
         "remote":       "cm",
+	"account":	"CyanogenMod",
         "repository":   "android_hardware_qcom_audio",
         "target_path":  "hardware/qcom/audio",
         "revision":     "cm-10.2"
     },
     {
         "remote":       "cm",
+	"account":	"CyanogenMod",
         "repository":   "android_hardware_qcom_msm8960",
         "target_path":  "hardware/qcom/msm8960",
         "revision":     "cm-10.2"
     },
     {
         "remote":       "cm",
+	"account":	"CyanogenMod",
         "repository":   "android_hardware_qcom_keymaster",
         "target_path":  "hardware/qcom/keymaster",
         "revision":     "cm-10.2"
