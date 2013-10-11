@@ -65,6 +65,10 @@ SUPERUSER_EMBEDDED := true
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.root_access=3
 
+# Disable excessive dalvik debug messages
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.debug.alloc=0
+
 # Superuser
 PRODUCT_PACKAGES += \
     su
