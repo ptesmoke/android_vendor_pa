@@ -99,14 +99,7 @@
     },
     {
         "remote":       "cm",
-	"account":	"CyanogenMod",
-        "repository":   "android_packages_apps_SoundRecorder",
-        "target_path":  "packages/apps/SoundRecorder",
-        "revision":     "cm-10.2"
-    },
-    {
-        "remote":       "cm",
-	"account":	"CyanogenMod",
+        "account":      "CyanogenMod",
         "repository":   "android_external_vim",
         "target_path":  "external/vim",
         "revision":     "cm-10.2"

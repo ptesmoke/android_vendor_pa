@@ -11,7 +11,6 @@
 #    VoicePlus \
 #    VideoEditor \
 #    VoiceDialer \
-#    SoundRecorder \
 #    Basic
 
 # Extra tools in CM
