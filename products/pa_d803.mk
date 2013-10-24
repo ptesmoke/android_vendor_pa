@@ -38,7 +38,7 @@ EXTRA_CM_PACKAGES ?= true
 # Override AOSP build properties
 PRODUCT_NAME := pa_d803
 PRODUCT_BRAND := LGE
-PRODUCT_MODEL := LG G2 D803
+PRODUCT_MODEL := LG-D803
 PRODUCT_MANUFACTURER := LGE
 
 # Include ParanoidAndroid repos configuration

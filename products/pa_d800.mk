@@ -38,7 +38,7 @@ EXTRA_CM_PACKAGES ?= true
 # Override AOSP build properties
 PRODUCT_NAME := pa_d800
 PRODUCT_BRAND := LGE
-PRODUCT_MODEL := LG G2 D800
+PRODUCT_MODEL := LG-D800
 PRODUCT_MANUFACTURER := LGE
 
 # Include ParanoidAndroid repos configuration
