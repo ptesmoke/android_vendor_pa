@@ -40,10 +40,10 @@ else
 endif
 
 # ParanoidOTA
-ifneq ($(NO_OTA_BUILD),true)
-    PRODUCT_PACKAGES += \
-        ParanoidOTA
-endif
+# ifneq ($(NO_OTA_BUILD),true)
+#    PRODUCT_PACKAGES += \
+#        ParanoidOTA
+# endif
 
 ifneq ($(PARANOID_BOOTANIMATION_NAME),)
     PRODUCT_COPY_FILES += \
