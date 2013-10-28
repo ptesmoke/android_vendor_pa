@@ -8,3 +8,4 @@ add_lunch_combo pa_manta-userdebug
 add_lunch_combo pa_toro-userdebug
 add_lunch_combo pa_toroplus-userdebug
 add_lunch_combo pa_crespo-userdebug
+add_lunch_combo pa_g2-userdebug
