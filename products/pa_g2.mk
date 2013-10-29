@@ -16,7 +16,7 @@
 ifeq (pa_g2,$(TARGET_PRODUCT))
 
 # Define PA bootanimation size
-PARANOID_BOOTANIMATION_NAME := XXHDPI
+PARANOID_BOOTANIMATION_NAME := XHDPI
 
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_g2
