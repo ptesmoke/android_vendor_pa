@@ -36,3 +36,6 @@ endif
 ifeq (pa_n7100,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_n7100.mk
 endif
+ifeq (pa_g2,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_g2.mk
+endif
