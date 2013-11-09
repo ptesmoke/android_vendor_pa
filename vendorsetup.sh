@@ -6,3 +6,9 @@ add_lunch_combo pa_i9300-userdebug
 add_lunch_combo pa_l900-userdebug
 add_lunch_combo pa_n7000-userdebug
 add_lunch_combo pa_n7100-userdebug
+add_lunch_combo pa_d800-userdebug
+add_lunch_combo pa_d801-userdebug
+add_lunch_combo pa_d802-userdebug
+add_lunch_combo pa_d803-userdebug
+add_lunch_combo pa_vs980-userdebug
+add_lunch_combo pa_ls980-userdebug
